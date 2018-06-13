@@ -6,3 +6,6 @@ cd ${REPO_DIR}
 ${GIT} add --all .
 ${GIT} commit -m "Test commit"
 ${GIT} push https://github.com/rajeshanipakala/Openshift.git master
+$rajeshanipakala
+$5Arajesh@
+

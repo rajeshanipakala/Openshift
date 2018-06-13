@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Hi"
-# usage: push-gh-pages DIRECTORY # DIRECTORY is where GitHub pages contents are in (eg. build)
+# usage: push-master DIRECTORY # DIRECTORY is where GitHub pages contents are in (eg. build)
 # LICENSE: Public Domain
 
 set -e
@@ -25,13 +25,13 @@ then
     git remote add --fetch origin "$remote"
 fi
 
-if git rev-parse --verify origin/gh-pages > /dev/null 2>&1
+if git rev-parse --verify origin/master > /dev/null 2>&1
 then
-    git checkout gh-pages
+    git checkout master
 else
-    git checkout --orphan gh-pages
+    git checkout --orphan master
 fi
 
 git add .
 git commit -m "pages built at $described_rev" -e
-git push origin gh-pages
+git push origin master
