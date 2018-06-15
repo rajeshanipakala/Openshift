@@ -8,5 +8,5 @@ ${GIT} commit -m "Test commit"
 ${GIT} push https://rajeshanipakala:rajesh9989@github.com/rajeshanipakala/Openshift.git master
 #$rajeshanipakala
 #$5Arajesh@
-${GIT} Username for 'https://github.com': rajeshanipakala
-${GIT} Password for 'https://rajeshanipakala@github.com': 5Arajesh@
+#${GIT} Username for 'https://github.com': rajeshanipakala
+#${GIT} Password for 'https://rajeshanipakala@github.com': 5Arajesh@
