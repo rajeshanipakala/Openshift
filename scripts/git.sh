@@ -9,4 +9,4 @@ ${GIT} push https://github.com/rajeshanipakala/Openshift.git master
 #$rajeshanipakala
 #$5Arajesh@
 Username for 'https://github.com': rajeshanipakala
-Password for 'https://rajeshanipakala:github.com': 5Arajesh@
+Password for 'https://rajeshanipakala@github.com': 5Arajesh@
